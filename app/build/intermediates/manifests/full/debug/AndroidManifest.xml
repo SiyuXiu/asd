@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.willdarden.group2project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.willdarden.group2project.LoginScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.willdarden.group2project.activity_registration_screen" />
+        <activity android:name="com.example.willdarden.group2project.Userhome" />
+        <activity android:name="com.example.willdarden.group2project.Eventrequest" />
+        <activity android:name="com.example.willdarden.group2project.viewmyevents" />
+        <activity android:name="com.example.willdarden.group2project.Eventsummary" />
+        <activity android:name="com.example.willdarden.group2project.update_profile" />
+        <activity android:name="com.example.willdarden.group2project.activity_caterer_staff_homepage" />
+        <activity android:name="com.example.willdarden.group2project.admin_home_screen" />
+        <activity android:name="com.example.willdarden.group2project.activity_event_list" />
+        <activity android:name="com.example.willdarden.group2project.activity_update_profile" />
+        <activity android:name="com.example.willdarden.group2project.CaterHomepage" />
+        <activity android:name="com.example.willdarden.group2project.CatererEventList" />
+        <activity android:name="com.example.willdarden.group2project.EventNameEnterPage" />
+        <activity android:name="com.example.willdarden.group2project.EventDetailPage" />
+        <activity android:name="com.example.willdarden.group2project.CatererFuctionList" />
+        <activity android:name="com.example.willdarden.group2project.CatererPickUpDatePage" />
+        <activity android:name="com.example.willdarden.group2project.CatererCalendarEventView" />
+        <activity android:name="com.example.willdarden.group2project.AssignStaffToEvent" />
+        <activity android:name="com.example.willdarden.group2project.AddResources" />
+        <activity android:name="com.example.willdarden.group2project.CatererSchedulePlaceForEvent" />
+        <activity android:name="com.example.willdarden.group2project.StaffEventlist" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
